@@ -1,6 +1,6 @@
 {
   "name": "carbon-asset-token",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.5.0",
@@ -26,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "release": "./node_modules/.bin/standard-version"
   },
   "eslintConfig": {
     "extends": [
@@ -55,25 +56,17 @@
     "git-authors-cli": "^1.0.36",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "standard-version": "^9.3.2"
   },
   "lint-staged": {
-    "*.{js,json}": [
-      "./node_modules/.bin/prettier --single-quote --trailing-comma es5 --write",
-      "git add"
-    ],
     "*.js": [
       "./node_modules/.bin/eslint --fix src/**/*.js",
       "git add"
     ]
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "./node_modules/.bin/commitlint -e",
-      "pre-commit": "./node_modules/.bin/git-authors-cli && ./node_modules/.bin/lint-staged"
-    }
-  },
   "contributors": [
+    "Michael.Taylor <mtaylor@michaeltaylor3d.com>",
     "Justin England <justin@jeng.land>"
   ]
 }
