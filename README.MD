@@ -11,7 +11,6 @@ git clone git@github.com:Chia-Network/carbon-asset-token.git
 cd carbon-asset-token
 nvm install 12.22.0
 nvm use 12.22.0
-npm install versionup -g
 npm install -g husky
 npm install -g yarn
 yarn
@@ -32,7 +31,7 @@ Upon your first commit, you will automatically be added to the package.json file
 
 ## Releasing
 
-This app uses a combination of terraform and github actions to automatically deploy to the AWS production bucket when code has been merged into the main branch. A future version may only deploy when new tags are pushed.
+This app uses a combination of terraform and github actions to automatically deploy the latest pushed tag to AWS production environment.
 
 ## Commiting
 
