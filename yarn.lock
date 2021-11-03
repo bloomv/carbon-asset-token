@@ -3011,13 +3011,6 @@ args-js@~0.10.12:
   resolved "https://registry.yarnpkg.com/args-js/-/args-js-0.10.12.tgz#a327aea80e41072a3d85f9c274db6511eb95e49c"
   integrity sha1-oyeuqA5BByo9hfnCdNtlEeuV5Jw=
 
-argx@^4.0.0:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/argx/-/argx-4.0.4.tgz#eac913df14181328a2d33fe4897a56e70dbbcdb8"
-  integrity sha512-XLWeRTNBJRzQkbMweLIxdtnvpE7iYUBraPwrIJX57FjL4D1RHLMJRM1AyEP6KZHgvjW7TSnxF8MpGic7YdTGOA==
-  dependencies:
-    iftype "^4.0.9"
-
 aria-query@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/aria-query/-/aria-query-4.2.2.tgz#0d2ca6c9aceb56b8977e9fed6aed7e15bbd2f83b"
@@ -7145,11 +7138,6 @@ iferr@^0.1.5:
   resolved "https://registry.yarnpkg.com/iferr/-/iferr-0.1.5.tgz#c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501"
   integrity sha1-xg7taebY/bazEEofy8ocGS3FtQE=
 
-iftype@^4.0.9:
-  version "4.0.9"
-  resolved "https://registry.yarnpkg.com/iftype/-/iftype-4.0.9.tgz#3803c91d518a699720cfba7a9e47c0268664f106"
-  integrity sha512-01Klo+04dkDzY193D1GVfOdQzmpqaYFJTAlZKRztkT/BOaU7sSnvxGimSln+7DMqLUP4tpDTNFgxqVPLYZVypA==
-
 ignore@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
@@ -9091,9 +9079,9 @@ minipass-pipeline@^1.2.2:
     minipass "^3.0.0"
 
 minipass@^3.0.0, minipass@^3.1.1:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.1.3.tgz#7d42ff1f39635482e15f9cdb53184deebd5815fd"
-  integrity sha512-Mgd2GdMVzY+x3IJ+oHnVM+KG3lA5c8tnabyJKmHSaG2kAGpudxuOf8ToDkhumF7UzME7DecbQE9uOZhNm7PuJg==
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.1.5.tgz#71f6251b0a33a49c01b3cf97ff77eda030dff732"
+  integrity sha512-+8NzxD82XQoNKNrl1d/FSi+X8wAEWR+sbYAfIvub4Nz0d22plFG72CEVVaufV8PNf4qSslFTD8VMOxNVhHCjTw==
   dependencies:
     yallist "^4.0.0"
 
@@ -12744,9 +12732,9 @@ tapable@^1.0.0, tapable@^1.1.3:
   integrity sha512-4WK/bYZmj8xLr+HUCODHGF1ZFzsYffasLUgEiMBY4fgtltdO6B4WJtlSbPaDTLpYTcGVwM2qLnFTICEcNxs3kA==
 
 tar@^6.0.2:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.0.tgz#d1724e9bcc04b977b18d5c573b333a2207229a83"
-  integrity sha512-DUCttfhsnLCjwoDoFcI+B2iJgYa93vBnDUATYEeRx6sntCTdN01VnqsIuTlALXla/LWooNg0yEGeB+Y8WdFxGA==
+  version "6.1.11"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.11.tgz#6760a38f003afa1b2ffd0ffe9e9abbd0eab3d621"
+  integrity sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==
   dependencies:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
@@ -13446,14 +13434,6 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
-
-versionup@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/versionup/-/versionup-3.0.4.tgz#a545f5bdf24fdf28475ea4940caa5750b51af8ca"
-  integrity sha512-uyioACPAMiCfjQobdFCzQ7iGXWyxztE629Y7Gvz6ddSZ4h2ClilvzQaUDQazscElgnPeY8i6w/7hoR/Q2u+y4w==
-  dependencies:
-    argx "^4.0.0"
-    commander "^2.20.0"
 
 vm-browserify@^1.0.1:
   version "1.1.2"
