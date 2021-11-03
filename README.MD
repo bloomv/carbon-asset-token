@@ -16,6 +16,10 @@ npm install -g yarn
 yarn
 ```
 
+### Prerequisites
+
+You'll need:
+
 - Git
 - [nvm](https://github.com/nvm-sh/nvm)
 
