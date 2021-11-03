@@ -3011,13 +3011,6 @@ args-js@~0.10.12:
   resolved "https://registry.yarnpkg.com/args-js/-/args-js-0.10.12.tgz#a327aea80e41072a3d85f9c274db6511eb95e49c"
   integrity sha1-oyeuqA5BByo9hfnCdNtlEeuV5Jw=
 
-argx@^4.0.0:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/argx/-/argx-4.0.4.tgz#eac913df14181328a2d33fe4897a56e70dbbcdb8"
-  integrity sha512-XLWeRTNBJRzQkbMweLIxdtnvpE7iYUBraPwrIJX57FjL4D1RHLMJRM1AyEP6KZHgvjW7TSnxF8MpGic7YdTGOA==
-  dependencies:
-    iftype "^4.0.9"
-
 aria-query@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/aria-query/-/aria-query-4.2.2.tgz#0d2ca6c9aceb56b8977e9fed6aed7e15bbd2f83b"
@@ -7144,11 +7137,6 @@ iferr@^0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/iferr/-/iferr-0.1.5.tgz#c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501"
   integrity sha1-xg7taebY/bazEEofy8ocGS3FtQE=
-
-iftype@^4.0.9:
-  version "4.0.9"
-  resolved "https://registry.yarnpkg.com/iftype/-/iftype-4.0.9.tgz#3803c91d518a699720cfba7a9e47c0268664f106"
-  integrity sha512-01Klo+04dkDzY193D1GVfOdQzmpqaYFJTAlZKRztkT/BOaU7sSnvxGimSln+7DMqLUP4tpDTNFgxqVPLYZVypA==
 
 ignore@^4.0.6:
   version "4.0.6"
@@ -12897,9 +12885,9 @@ tiny-warning@^1.0.0, tiny-warning@^1.0.3:
   integrity sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
@@ -13446,14 +13434,6 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
-
-versionup@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/versionup/-/versionup-3.0.4.tgz#a545f5bdf24fdf28475ea4940caa5750b51af8ca"
-  integrity sha512-uyioACPAMiCfjQobdFCzQ7iGXWyxztE629Y7Gvz6ddSZ4h2ClilvzQaUDQazscElgnPeY8i6w/7hoR/Q2u+y4w==
-  dependencies:
-    argx "^4.0.0"
-    commander "^2.20.0"
 
 vm-browserify@^1.0.1:
   version "1.1.2"
